@@ -3,7 +3,30 @@
 這是一個功能豐富的 Discord 機器人，整合了等級系統、貨幣系統、商店、報到獎勵、票務系統、天氣查詢、自訂指令及多項管理功能。
 
 ## 專案結構概覽
-
+├── cogs/
+│   ├── __init__.py
+│   ├── checkin.py
+│   ├── currency.py
+│   ├── custom_commands.py
+│   ├── game.py
+│   ├── giveaway_data.py
+│   ├── giveaway_utils.py
+│   ├── giveaways.py
+│   ├── leveling.py
+│   ├── member_events.py
+│   ├── moderation.py
+│   ├── ping.py
+│   ├── reactroles.py
+│   ├── shop.py
+│   ├── tickets.py
+│   └── weather.py
+├── config.py
+├── main.py
+├── requirements.txt
+├── README.md
+└── utils/
+    ├── data_manager.py
+    └── weather.py
 - `main.py`: 機器人主程式，負責啟動機器人、載入擴充功能 (Cogs) 並同步斜線指令。
 - `config.py`: 存放機器人的敏感資訊，如 Bot Token 和天氣 API 金鑰。
 - `requirements.txt`: 專案所需的 Python 函式庫清單，方便部署。
@@ -78,7 +101,7 @@
     pip install -r requirements.txt
     ```
 
-- **`cogs/` 資料夾**:
+- **`/` 資料夾**:
     - 所有的json檔案都會於啟動時自動新增於根目錄
     - 若您移動檔案，請務必更新各個 `cogs` 檔案中的檔案路徑。
 
@@ -109,4 +132,5 @@ discord.client logging in using static token
 機器人已就緒,檢查是否有未處理的抽獎活動 
 機器人已成功登入為 bot #0000
 當前伺服器数量:1
-機器人已準備就緒,可以開始接收指令
+機器人已準備就緒,可以開始接收指令 ```
+## 注意
