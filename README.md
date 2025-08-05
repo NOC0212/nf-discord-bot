@@ -88,3 +88,25 @@
 
 ```bash
 python main.py
+- 回傳結果
+discord.client logging in using static token
+開始載入擴充功能(Cogs)...
+成功入擴充功能:cogs.moderation
+已載入自訂關鍵詞觸發功能。
+成功載入擴充功能:cogs.custom_commands
+成功載入擴充功能:cogs.shop
+成功載入擴充功能:cogs.game
+成功載入擴充功能:cogs.currency
+成功載入擴充功能:cogs.tickets
+成功載入擴充功能:cogs.leveling
+成功載入擴充功能:cogs.reactroles
+成功載入擴充功能:cogs.weather
+成功載入擴充功能:cogs.checkin
+成功載入擴充功能:cogs.ping
+成功載入播充功能:cogs.giveaways
+成功載入擴充功能:cogs.member events
+已同步 31 個斜線指令
+機器人已就緒,檢查是否有未處理的抽獎活動 
+機器人已成功登入為 bot #0000
+當前伺服器数量:1
+機器人已準備就緒,可以開始接收指令
