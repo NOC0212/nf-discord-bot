@@ -25,7 +25,7 @@
   - `weather.py`: 包含從中央氣象署 API 獲取天氣預報的輔助函數。
   - `giveaway_data.py`: 處理抽獎數據的讀取和儲存。
   - `giveaway_utils.py`: 包含解析時間字串的工具函數。
-- `data/` (建議資料夾): 存放所有 `.json` 數據檔案。
+- `.json` 存放所有數據檔案。
   - `checkin_data.json`: 儲存使用者報到的時間戳和報到獎勵設定。
   - `currency.json`: 儲存使用者的貨幣餘額。
   - `currency_config.json`: 設定貨幣系統的參數，如轉帳手續費。
